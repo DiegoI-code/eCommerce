@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Cargando = () => {
   return (
     <>
-    <div className="text-center">
+      <div className="text-center">
         <div className="spinner-border" role="status">
-            <span className="sr-only"></span>
+          <span className="sr-only"></span>
         </div>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Cargando
+export default Cargando;

@@ -8,12 +8,9 @@ import GlobalContextProvider, { GlobalContext } from '../Context/GlobalContextPr
 const ShopDetail = () => {
 
     const params = useParams();
-    console.log(params.id);
     const {dataProds} = useContext(GlobalContext);
-    console.log(dataProds);
 
     const prodElegido = (dataProds.filter(x => x.id == params.id));
-    console.log(prodElegido);
     const prodElegidoF = prodElegido[0]; // porque el filter devuelve un array con un objeto entonces el objeto est[a en el indice 0 del array]
 
 

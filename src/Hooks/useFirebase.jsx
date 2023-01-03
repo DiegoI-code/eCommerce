@@ -24,7 +24,7 @@ const useFirebase = () => {
   
   
     return (
-    <div>useFirebase</div>
+    <></>
   )
 }
 
